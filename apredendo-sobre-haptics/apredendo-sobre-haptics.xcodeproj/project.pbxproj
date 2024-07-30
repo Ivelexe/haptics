@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		28F1342A2C51BA5000462023 /* apredendo_sobre_hapticsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28F134292C51BA5000462023 /* apredendo_sobre_hapticsApp.swift */; };
+		28F1342C2C51BA5000462023 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28F1342B2C51BA5000462023 /* ContentView.swift */; };
+		28F1342E2C51BA5100462023 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28F1342D2C51BA5100462023 /* Assets.xcassets */; };
+		28F134312C51BA5100462023 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28F134302C51BA5100462023 /* Preview Assets.xcassets */; };
+		28F1343B2C51BA5100462023 /* apredendo_sobre_hapticsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28F1343A2C51BA5100462023 /* apredendo_sobre_hapticsTests.swift */; };
+		28F134452C51BA5100462023 /* apredendo_sobre_hapticsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28F134442C51BA5100462023 /* apredendo_sobre_hapticsUITests.swift */; };
+		28F134472C51BA5100462023 /* apredendo_sobre_hapticsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28F134462C51BA5100462023 /* apredendo_sobre_hapticsUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		28F134372C51BA5100462023 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 28F1341E2C51BA5000462023 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 28F134252C51BA5000462023;
+			remoteInfo = "apredendo-sobre-haptics";
+		};
+		28F134412C51BA5100462023 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 28F1341E2C51BA5000462023 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 28F134252C51BA5000462023;
+			remoteInfo = "apredendo-sobre-haptics";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		28F134262C51BA5000462023 /* apredendo-sobre-haptics.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "apredendo-sobre-haptics.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		28F134292C51BA5000462023 /* apredendo_sobre_hapticsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = apredendo_sobre_hapticsApp.swift; sourceTree = "<group>"; };
+		28F1342B2C51BA5000462023 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		28F1342D2C51BA5100462023 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		28F134302C51BA5100462023 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		28F134362C51BA5100462023 /* apredendo-sobre-hapticsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "apredendo-sobre-hapticsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		28F1343A2C51BA5100462023 /* apredendo_sobre_hapticsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = apredendo_sobre_hapticsTests.swift; sourceTree = "<group>"; };
+		28F134402C51BA5100462023 /* apredendo-sobre-hapticsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "apredendo-sobre-hapticsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		28F134442C51BA5100462023 /* apredendo_sobre_hapticsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = apredendo_sobre_hapticsUITests.swift; sourceTree = "<group>"; };
+		28F134462C51BA5100462023 /* apredendo_sobre_hapticsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = apredendo_sobre_hapticsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		28F134232C51BA5000462023 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28F134332C51BA5100462023 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28F1343D2C51BA5100462023 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		28F1341D2C51BA5000462023 = {
+			isa = PBXGroup;
+			children = (
+				28F134282C51BA5000462023 /* apredendo-sobre-haptics */,
+				28F134392C51BA5100462023 /* apredendo-sobre-hapticsTests */,
+				28F134432C51BA5100462023 /* apredendo-sobre-hapticsUITests */,
+				28F134272C51BA5000462023 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		28F134272C51BA5000462023 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				28F134262C51BA5000462023 /* apredendo-sobre-haptics.app */,
+				28F134362C51BA5100462023 /* apredendo-sobre-hapticsTests.xctest */,
+				28F134402C51BA5100462023 /* apredendo-sobre-hapticsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		28F134282C51BA5000462023 /* apredendo-sobre-haptics */ = {
+			isa = PBXGroup;
+			children = (
+				28F134292C51BA5000462023 /* apredendo_sobre_hapticsApp.swift */,
+				28F1342B2C51BA5000462023 /* ContentView.swift */,
+				28F1342D2C51BA5100462023 /* Assets.xcassets */,
+				28F1342F2C51BA5100462023 /* Preview Content */,
+			);
+			path = "apredendo-sobre-haptics";
+			sourceTree = "<group>";
+		};
+		28F1342F2C51BA5100462023 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				28F134302C51BA5100462023 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		28F134392C51BA5100462023 /* apredendo-sobre-hapticsTests */ = {
+			isa = PBXGroup;
+			children = (
+				28F1343A2C51BA5100462023 /* apredendo_sobre_hapticsTests.swift */,
+			);
+			path = "apredendo-sobre-hapticsTests";
+			sourceTree = "<group>";
+		};
+		28F134432C51BA5100462023 /* apredendo-sobre-hapticsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				28F134442C51BA5100462023 /* apredendo_sobre_hapticsUITests.swift */,
+				28F134462C51BA5100462023 /* apredendo_sobre_hapticsUITestsLaunchTests.swift */,
+			);
+			path = "apredendo-sobre-hapticsUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		28F134252C51BA5000462023 /* apredendo-sobre-haptics */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 28F1344A2C51BA5100462023 /* Build configuration list for PBXNativeTarget "apredendo-sobre-haptics" */;
+			buildPhases = (
+				28F134222C51BA5000462023 /* Sources */,
+				28F134232C51BA5000462023 /* Frameworks */,
+				28F134242C51BA5000462023 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "apredendo-sobre-haptics";
+			productName = "apredendo-sobre-haptics";
+			productReference = 28F134262C51BA5000462023 /* apredendo-sobre-haptics.app */;
+			productType = "com.apple.product-type.application";
+		};
+		28F134352C51BA5100462023 /* apredendo-sobre-hapticsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 28F1344D2C51BA5100462023 /* Build configuration list for PBXNativeTarget "apredendo-sobre-hapticsTests" */;
+			buildPhases = (
+				28F134322C51BA5100462023 /* Sources */,
+				28F134332C51BA5100462023 /* Frameworks */,
+				28F134342C51BA5100462023 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				28F134382C51BA5100462023 /* PBXTargetDependency */,
+			);
+			name = "apredendo-sobre-hapticsTests";
+			productName = "apredendo-sobre-hapticsTests";
+			productReference = 28F134362C51BA5100462023 /* apredendo-sobre-hapticsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		28F1343F2C51BA5100462023 /* apredendo-sobre-hapticsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 28F134502C51BA5100462023 /* Build configuration list for PBXNativeTarget "apredendo-sobre-hapticsUITests" */;
+			buildPhases = (
+				28F1343C2C51BA5100462023 /* Sources */,
+				28F1343D2C51BA5100462023 /* Frameworks */,
+				28F1343E2C51BA5100462023 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				28F134422C51BA5100462023 /* PBXTargetDependency */,
+			);
+			name = "apredendo-sobre-hapticsUITests";
+			productName = "apredendo-sobre-hapticsUITests";
+			productReference = 28F134402C51BA5100462023 /* apredendo-sobre-hapticsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		28F1341E2C51BA5000462023 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					28F134252C51BA5000462023 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					28F134352C51BA5100462023 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 28F134252C51BA5000462023;
+					};
+					28F1343F2C51BA5100462023 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 28F134252C51BA5000462023;
+					};
+				};
+			};
+			buildConfigurationList = 28F134212C51BA5000462023 /* Build configuration list for PBXProject "apredendo-sobre-haptics" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 28F1341D2C51BA5000462023;
+			productRefGroup = 28F134272C51BA5000462023 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				28F134252C51BA5000462023 /* apredendo-sobre-haptics */,
+				28F134352C51BA5100462023 /* apredendo-sobre-hapticsTests */,
+				28F1343F2C51BA5100462023 /* apredendo-sobre-hapticsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		28F134242C51BA5000462023 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28F134312C51BA5100462023 /* Preview Assets.xcassets in Resources */,
+				28F1342E2C51BA5100462023 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28F134342C51BA5100462023 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28F1343E2C51BA5100462023 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		28F134222C51BA5000462023 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28F1342C2C51BA5000462023 /* ContentView.swift in Sources */,
+				28F1342A2C51BA5000462023 /* apredendo_sobre_hapticsApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28F134322C51BA5100462023 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28F1343B2C51BA5100462023 /* apredendo_sobre_hapticsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28F1343C2C51BA5100462023 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28F134472C51BA5100462023 /* apredendo_sobre_hapticsUITestsLaunchTests.swift in Sources */,
+				28F134452C51BA5100462023 /* apredendo_sobre_hapticsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		28F134382C51BA5100462023 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 28F134252C51BA5000462023 /* apredendo-sobre-haptics */;
+			targetProxy = 28F134372C51BA5100462023 /* PBXContainerItemProxy */;
+		};
+		28F134422C51BA5100462023 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 28F134252C51BA5000462023 /* apredendo-sobre-haptics */;
+			targetProxy = 28F134412C51BA5100462023 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		28F134482C51BA5100462023 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		28F134492C51BA5100462023 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		28F1344B2C51BA5100462023 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"apredendo-sobre-haptics/Preview Content\"";
+				DEVELOPMENT_TEAM = DXHXUHW8A6;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.levisoares.apredendo-sobre-haptics";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		28F1344C2C51BA5100462023 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"apredendo-sobre-haptics/Preview Content\"";
+				DEVELOPMENT_TEAM = DXHXUHW8A6;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.levisoares.apredendo-sobre-haptics";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		28F1344E2C51BA5100462023 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.levisoares.apredendo-sobre-hapticsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/apredendo-sobre-haptics.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/apredendo-sobre-haptics";
+			};
+			name = Debug;
+		};
+		28F1344F2C51BA5100462023 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.levisoares.apredendo-sobre-hapticsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/apredendo-sobre-haptics.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/apredendo-sobre-haptics";
+			};
+			name = Release;
+		};
+		28F134512C51BA5100462023 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.levisoares.apredendo-sobre-hapticsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "apredendo-sobre-haptics";
+			};
+			name = Debug;
+		};
+		28F134522C51BA5100462023 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.levisoares.apredendo-sobre-hapticsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "apredendo-sobre-haptics";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		28F134212C51BA5000462023 /* Build configuration list for PBXProject "apredendo-sobre-haptics" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28F134482C51BA5100462023 /* Debug */,
+				28F134492C51BA5100462023 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		28F1344A2C51BA5100462023 /* Build configuration list for PBXNativeTarget "apredendo-sobre-haptics" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28F1344B2C51BA5100462023 /* Debug */,
+				28F1344C2C51BA5100462023 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		28F1344D2C51BA5100462023 /* Build configuration list for PBXNativeTarget "apredendo-sobre-hapticsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28F1344E2C51BA5100462023 /* Debug */,
+				28F1344F2C51BA5100462023 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		28F134502C51BA5100462023 /* Build configuration list for PBXNativeTarget "apredendo-sobre-hapticsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28F134512C51BA5100462023 /* Debug */,
+				28F134522C51BA5100462023 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 28F1341E2C51BA5000462023 /* Project object */;
+}
